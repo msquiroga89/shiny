@@ -46,7 +46,7 @@ ui <- fluidPage( # una página fluida con filas (elementos en la misma línea) y
   )
 )
 
-# Define server ----------- -----------------------------------------------------
+# Define server ----------------------------------------------------------------
 
 server <- function(input, output, session) {
   output$scatterplot <- renderPlot({
